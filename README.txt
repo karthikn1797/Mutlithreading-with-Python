@@ -1,8 +1,4 @@
-Name: Karthik Natarajan
-kxn2904
-1001872904
 
-Lab 3
 
 Language : Python(version3)
 
