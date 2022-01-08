@@ -32,8 +32,8 @@ while True:
     dirs = os.listdir(path)
 
     #https://pythonprogramming.net/pickle-objects-sockets-tutorial-python-3/
-    msg = pickle.dumps(dirs)
-    msg = bytes(f"{len(msg):<{HEADERSIZE}}", 'utf-8')+msg
+    msg1 = pickle.dumps(dirs)
+    msg1 = bytes(f"{len(msg1):<{HEADERSIZE}}", 'utf-8')+msg1
 
     clientsocket.send(msg)
 
